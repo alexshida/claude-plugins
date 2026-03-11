@@ -1,0 +1,17 @@
+{
+  "name": "alexshida-plugins",
+  "metadata": {
+    "description": "Claude Code plugins by alexshida"
+  },
+  "owner": {
+    "name": "Alexander Maher",
+    "email": "amaher@usc.edu"
+  },
+  "plugins": [
+    {
+      "name": "timer",
+      "source": "./timer",
+      "description": "Delay a prompt by a given duration before submitting it"
+    }
+  ]
+}

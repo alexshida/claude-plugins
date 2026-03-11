@@ -2,6 +2,35 @@
 
 A Claude Code plugin that delays a prompt by a given duration before submitting it.
 
+## Installation
+
+**From the marketplace** (recommended):
+
+```
+/plugin install timer@alexshida-plugins
+```
+
+**Manual install** — add the marketplace to `~/.claude/settings.json`:
+
+```json
+{
+  "extraKnownMarketplaces": {
+    "alexshida-plugins": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/alexshida/claude-plugins.git"
+      }
+    }
+  }
+}
+```
+
+Then install:
+
+```
+/plugin install timer@alexshida-plugins
+```
+
 ## Usage
 
 ```
