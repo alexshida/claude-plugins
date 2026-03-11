@@ -1,0 +1,9 @@
+{
+  "name": "timer",
+  "version": "1.0.0",
+  "description": "Delay a prompt by a given duration before submitting it",
+  "author": {
+    "name": "Claude Plugins"
+  },
+  "keywords": ["timer", "delay", "schedule", "reminder"]
+}
